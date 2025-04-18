@@ -22,6 +22,14 @@ Additionally, the design is independent of Vivado IP (excluding inherent FPGA bu
 
 # Demonstration
 
+## HDMI Stream
+
+|BPP,FPS,FPGA|Video|
+|:-:|:-:|
+|24,60,K7|[![24 BPP 60FPS](https://img.youtube.com/vi/rlplOCCTBx4/mqdefault.jpg)](https://youtube.com/shorts/rlplOCCTBx4)|
+
+## Test Patterns
+
 |BPP,FPS,FPGA|Video|
 |:-:|:-:|
 |16,60,K7|[![16 BPP 60FPS](https://img.youtube.com/vi/XQDi_fEqIr8/mqdefault.jpg)](https://youtube.com/video/XQDi_fEqIr8)|
@@ -58,7 +66,7 @@ Remarks 1: Ultrascale+ devices and 7 series have different serialization buildin
 
 Remarks 2: Ultrascale+ devices have MIPI physical interface, which no extra resistor-network or front-end ICs are needed.
 
-Remarks 3: The only verilog design that are changed to cope with Ultrascale+ device are the serialization and MMCM blocks.
+Remarks 3: The only Verilog design that are changed to cope with Ultrascale+ device are the serialization and MMCM blocks.
 
 ```
  |-mipi_init_script
