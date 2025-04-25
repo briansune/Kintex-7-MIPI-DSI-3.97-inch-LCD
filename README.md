@@ -1,4 +1,4 @@
-# Kintex 7 MIPI DSI 3.97" LCD
+# Artix & Kintex 7 MIPI DSI 3.97" LCD
 
 ## If this project is constructive, welcome to donate a drink to PayPal.
 
@@ -32,6 +32,7 @@ Additionally, the design is independent of Vivado IP (excluding inherent FPGA bu
 
 |BPP,FPS,FPGA|Video|
 |:-:|:-:|
+|24,60,A7|[![16 BPP 60FPS](https://img.youtube.com/vi/L2Kd1VhOt-M/mqdefault.jpg)](https://youtube.com/video/L2Kd1VhOt-M)|
 |16,60,K7|[![16 BPP 60FPS](https://img.youtube.com/vi/XQDi_fEqIr8/mqdefault.jpg)](https://youtube.com/video/XQDi_fEqIr8)|
 |24,60,K7|[![24 BPP 60FPS](https://img.youtube.com/vi/FgBSzHJiU9Y/mqdefault.jpg)](https://youtube.com/video/FgBSzHJiU9Y)|
 
@@ -50,6 +51,7 @@ Please contact via EMAIL: briansune@gmail.com
 
 |Description|EVM|
 |:-:|:-:|
+|FPGA A7|<img src="./images/fpga_a7.JPG">|
 |FPGA K7|<img src="./images/fpga_k7.JPG">|
 |3.97" LCD|<img src="./images/lcd_3p97inch_2lanes.JPG">|
 
@@ -57,6 +59,7 @@ Please contact via EMAIL: briansune@gmail.com
 
 |FPGA|Resources|
 |:-:|:-:|
+|Artix 7|<img src="./images/A7_24bpp_60fps_3p97inch.png">|
 |Kintex 7|<img src="./images/K7_16bpp_60fps_3p97inch.png">|
 |Kintex 7|<img src="./images/K7_24bpp_60fps_3p97inch.png">|
 
